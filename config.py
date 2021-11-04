@@ -4,8 +4,8 @@ from redis import StrictRedis
 class Config(object):
     """MySQL Configure"""
     user = "root"
-    password = "Daxueshenmai666"
-    host = "81.70.0.250"
+    password = "123456"
+    host = "localhost"
     port = 3036
     database = "Trade_Bear"
     SQLALCHEMY_DATABASE_URI = f'mysql+pymysql://{user}:{password}@{host}:{port}/{database}'
