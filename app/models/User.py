@@ -9,9 +9,16 @@ class User(db.Model):
     email = db.Column(db.String(100), nullable=False)
     credit = db.Column(db.Integer, default=0)
     gender = db.Column(db.Integer, default=-1)  # unknown:-1 man:1 women:0
-    region = db.Column(db.String(10), nullable=False)
+    region = db.Column(db.String(100), nullable=False)
 
     items = db.relationship("Item", backref="User")
+
+    def __init__(self, userName, password, email, gender, region):
+        self.userName = userName
+        self.password = password
+        self.email = email
+        self.gender = gender
+        self.region = region
 
     def __repr__(self):
         return '<User %r>' % self.userName

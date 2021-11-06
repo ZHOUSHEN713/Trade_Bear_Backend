@@ -1,5 +1,4 @@
 from flask import Flask
-from flask_sqlalchemy import SQLAlchemy
 from config import DevelopmentConfig
 from flask_cors import CORS
 import redis
@@ -25,7 +24,6 @@ def register_extensions(app):
 def register_blueprint(app):
     from .api import UserApi
     app.register_blueprint(UserApi)
-    register_shell_context(app)
 
 
 def register_shell_context(app):
