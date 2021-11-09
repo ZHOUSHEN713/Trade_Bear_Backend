@@ -1134,8 +1134,8 @@
 											},
 											"visible": false,
 											"font": "Arial;13;0",
-											"left": 416,
-											"top": -272,
+											"left": 336,
+											"top": -336,
 											"height": 13
 										},
 										{
@@ -1145,11 +1145,11 @@
 												"$ref": "AAAAAAF83pmrh9h8Ep8="
 											},
 											"font": "Arial;13;1",
-											"left": 949,
-											"top": 335,
+											"left": 909,
+											"top": 303,
 											"width": 111,
 											"height": 13,
-											"text": "Repository"
+											"text": "Factory"
 										},
 										{
 											"_type": "LabelView",
@@ -1159,8 +1159,8 @@
 											},
 											"visible": false,
 											"font": "Arial;13;0",
-											"left": 416,
-											"top": -272,
+											"left": 336,
+											"top": -336,
 											"width": 82.56396484375,
 											"height": 13,
 											"text": "(from Model)"
@@ -1173,15 +1173,15 @@
 											},
 											"visible": false,
 											"font": "Arial;13;0",
-											"left": 416,
-											"top": -272,
+											"left": 336,
+											"top": -336,
 											"height": 13,
 											"horizontalAlignment": 1
 										}
 									],
 									"font": "Arial;13;0",
-									"left": 944,
-									"top": 328,
+									"left": 904,
+									"top": 296,
 									"width": 121,
 									"height": 25,
 									"stereotypeLabel": {
@@ -1217,8 +1217,8 @@
 												"$ref": "AAAAAAF83pwpVtiumsI="
 											},
 											"font": "Arial;13;0",
-											"left": 949,
-											"top": 358,
+											"left": 909,
+											"top": 326,
 											"width": 111,
 											"height": 13,
 											"text": "+itemID",
@@ -1234,8 +1234,8 @@
 												"$ref": "AAAAAAF83pw2lti0iiQ="
 											},
 											"font": "Arial;13;0",
-											"left": 949,
-											"top": 373,
+											"left": 909,
+											"top": 341,
 											"width": 111,
 											"height": 13,
 											"text": "+url",
@@ -1243,8 +1243,8 @@
 										}
 									],
 									"font": "Arial;13;0",
-									"left": 944,
-									"top": 353,
+									"left": 904,
+									"top": 321,
 									"width": 121,
 									"height": 38
 								},
@@ -1258,8 +1258,8 @@
 										"$ref": "AAAAAAF83pmrhth5lDs="
 									},
 									"font": "Arial;13;0",
-									"left": 944,
-									"top": 391,
+									"left": 904,
+									"top": 359,
 									"width": 121,
 									"height": 10
 								},
@@ -1274,8 +1274,8 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 208,
-									"top": -136,
+									"left": 168,
+									"top": -168,
 									"width": 10,
 									"height": 10
 								},
@@ -1290,16 +1290,16 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 208,
-									"top": -136,
+									"left": 168,
+									"top": -168,
 									"width": 10,
 									"height": 10
 								}
 							],
 							"font": "Arial;13;0",
 							"containerChangeable": true,
-							"left": 944,
-							"top": 328,
+							"left": 904,
+							"top": 296,
 							"width": 121,
 							"height": 73,
 							"nameCompartment": {
@@ -2449,7 +2449,8 @@
 							"_parent": {
 								"$ref": "AAAAAAF83oA38tdIpKE="
 							},
-							"name": "region"
+							"name": "region",
+							"type": ""
 						}
 					]
 				},
@@ -2624,7 +2625,7 @@
 					"_parent": {
 						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
 					},
-					"name": "Repository",
+					"name": "Factory",
 					"attributes": [
 						{
 							"_type": "UMLAttribute",

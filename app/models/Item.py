@@ -13,3 +13,12 @@ class Item(db.Model):
 
     userId = db.Column(db.Integer, db.ForeignKey("User.userId"), nullable=False)
 
+    def __init__(self, title, price, description, category, userId):
+        self.title = title
+        self.price = price
+        self.description = description
+        self.category = category
+        self.userId = userId
+
+    def as_dict(self):
+        return {c.name: getattr(self, c.name) for c in self.__table__.columns}

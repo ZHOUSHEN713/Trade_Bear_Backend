@@ -7,3 +7,9 @@ class Order(db.Model):
     sellerId = db.Column(db.Integer, nullable=False)
     itemId = db.Column(db.Integer, nullable=False)
 
+    def __init__(self, buyerId, sellerId, itemId):
+        self.buyerId = buyerId
+        self.sellerId = sellerId
+        self.itemId = itemId
+
+

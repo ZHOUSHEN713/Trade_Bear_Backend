@@ -7,6 +7,9 @@ class Answer(db.Model):
     body = db.Column(db.String(200), nullable=False)
     questionId = db.Column(db.Integer, db.ForeignKey("Question.questionId"), nullable=False)
 
+    def __init__(self, body, questionId):
+        self.body = body
+        self.questionId = questionId
 
 
 
