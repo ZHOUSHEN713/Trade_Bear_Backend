@@ -2,6 +2,34 @@
 <project version="4">
   <component name="PublishConfigData" autoUpload="Always" serverName="ubuntu@81.70.0.250:22 password" remoteFilesAllowedToDisappearOnAutoupload="false">
     <serverData>
+      <paths name="admin8@172.24.129.101:22 password">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="lsq@10.147.17.147:22 password">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="lsq@10.147.17.147:22 password (1)">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="tencent_server\">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/home/ubuntu/Trade_Bear_Backend" local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
       <paths name="ubuntu@81.70.0.250:22 password">
         <serverdata>
           <mappings>
@@ -9,7 +37,7 @@
           </mappings>
         </serverdata>
       </paths>
-      <paths name="恒源云2080Ti">
+      <paths name="ubuntu@81.70.0.250:22 password (1)">
         <serverdata>
           <mappings>
             <mapping local="$PROJECT_DIR$" web="/" />

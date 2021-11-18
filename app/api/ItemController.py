@@ -3,6 +3,7 @@ from app.extensions import db, redis_client, auth
 from app.utils import RET, EORROR_MAP, allowed_img_format, file_operator, sql_add_commit
 from app.models import Item, ImgBox
 from flask import request, jsonify, current_app, g
+# from ..recommender.Recommend_API import recommender
 
 
 @ItemApi.route('/', methods=["GET"])
