@@ -1,6 +1,6 @@
 from flask import Flask
 from config import DevelopmentConfig
-from app.models import User, Item, Order, Question, Answer, ImgBox
+from app.models import User, Item, Order, Question, Answer, ImgBox, Record
 from app.extensions import db, redis_client
 from app.utils.token_operation import *
 
@@ -21,9 +21,13 @@ def register_extensions(app):
 
 
 def register_blueprint(app):
-    from .api import UserApi, ItemApi
+    from .api import UserApi, ItemApi, QuestionApi, RecordApi, AnswerApi, OrderApi
     app.register_blueprint(UserApi)
     app.register_blueprint(ItemApi)
+    app.register_blueprint(QuestionApi)
+    app.register_blueprint(RecordApi)
+    app.register_blueprint(AnswerApi)
+    app.register_blueprint(OrderApi)
 
 
 def register_shell_context(app):

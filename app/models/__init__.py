@@ -4,4 +4,5 @@ from .Order import Order
 from .Question import Question
 from .Answer import Answer
 from .ImgBox import ImgBox
+from .Record import Record
 

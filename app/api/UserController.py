@@ -9,7 +9,7 @@ import re
 @UserApi.route('/', methods=['GET'])
 @auth.login_required
 def test_user_api():
-    return "user gone"
+    return "DONE"
 
 
 @UserApi.route('/register', methods=['POST'])
